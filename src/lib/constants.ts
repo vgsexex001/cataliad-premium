@@ -6,11 +6,11 @@ export const siteConfig = {
 };
 
 export const navLinks = [
-  { label: "Início", href: "/" },
-  { label: "Casos", href: "/cases" },
-  { label: "Serviços", href: "/servicos" },
-  { label: "Sobre", href: "/sobre" },
-  { label: "Contato", href: "/contato" },
+  { label: "Início", href: "#inicio" },
+  { label: "Casos", href: "#cases" },
+  { label: "Serviços", href: "#servicos" },
+  { label: "Sobre", href: "#sobre" },
+  { label: "Contato", href: "#contato" },
 ];
 
 export const heroData = {
@@ -270,10 +270,10 @@ export const footerData = {
   address: "Rua José Versolato 101, Bloco A sala 41",
   city: "São Bernardo do Campo",
   quickLinks: [
-    { label: "Início", href: "/" },
-    { label: "Casos", href: "/cases" },
-    { label: "Serviços", href: "/servicos" },
-    { label: "Sobre", href: "/sobre" },
+    { label: "Início", href: "#inicio" },
+    { label: "Casos", href: "#cases" },
+    { label: "Serviços", href: "#servicos" },
+    { label: "Sobre", href: "#sobre" },
   ],
   legalLinks: [
     { label: "Termos de Uso", href: "/termos" },

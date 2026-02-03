@@ -24,7 +24,7 @@ const iconMap: Record<string, React.ElementType> = {
 
 export default function Services() {
   return (
-    <section className="py-32 bg-[#12121a] relative overflow-hidden">
+    <section id="servicos" className="py-32 bg-[#12121a] relative overflow-hidden">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-20">
         {/* Section header — centered */}
         <SectionReveal>

@@ -15,7 +15,7 @@ const iconMap: Record<string, React.ElementType> = {
 
 export default function Differentials() {
   return (
-    <section className="py-32 bg-[#12121a]">
+    <section id="sobre" className="py-32 bg-[#12121a]">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-20">
         {/* Header — centered */}
         <SectionReveal>
