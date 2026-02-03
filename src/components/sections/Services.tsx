@@ -6,6 +6,7 @@ import {
   Users,
   Video,
   Bot,
+  Smartphone,
   Check,
   ArrowRight,
 } from "lucide-react";
@@ -18,6 +19,7 @@ const iconMap: Record<string, React.ElementType> = {
   Users,
   Video,
   Bot,
+  Smartphone,
 };
 
 export default function Services() {
@@ -49,9 +51,10 @@ export default function Services() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-16">
           {services.map((service, index) => {
             const Icon = iconMap[service.icon];
+            const isLast = index === services.length - 1 && services.length % 2 !== 0;
 
             return (
-              <SectionReveal key={service.title} delay={index * 0.1}>
+              <SectionReveal key={service.title} delay={index * 0.1} className={isLast ? "md:col-span-2 md:max-w-3xl md:mx-auto" : ""}>
                 <Card3D>
                   <div className="p-8">
                     {/* Icon */}

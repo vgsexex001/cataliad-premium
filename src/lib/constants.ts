@@ -106,6 +106,19 @@ export const services = [
       "Integração com CRM e ferramentas de vendas",
     ],
   },
+  {
+    title: "SaaS & Aplicativos sob Medida",
+    description:
+      "Transformamos sua visão em produto digital. Do MVP ao scale-up, construímos SaaS e aplicativos em Flutter que geram receita recorrente e dominam o mercado.",
+    icon: "Smartphone",
+    features: [
+      "Aplicativos nativos iOS e Android com Flutter — um código, duas plataformas, zero compromisso em performance",
+      "Arquitetura SaaS escalável com infraestrutura cloud-native pronta para milhares de usuários simultâneos",
+      "UX/UI premium com design system proprietário que converte visitantes em assinantes",
+      "Integrações com gateways de pagamento, APIs externas e sistemas legados da sua operação",
+      "Ciclos de entrega ágeis com deploys contínuos — seu produto evolui toda semana, não todo semestre",
+    ],
+  },
 ];
 
 export const cases = [
